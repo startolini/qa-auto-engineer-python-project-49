@@ -13,6 +13,9 @@ brain-progression:
 brain-prime:
 	uv run brain-prime
 
+brain-even:
+	uv run brain-even
+
 build:
 	uv build
 
