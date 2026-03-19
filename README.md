@@ -2,6 +2,28 @@
 
 [![Actions Status](https://github.com/startolini/qa-auto-engineer-python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/startolini/qa-auto-engineer-python-project-49/actions)
 
+## Игры
+
+- `brain-calc` — калькулятор
+- `brain-gcd` — НОД
+- `brain-progression` — прогрессия
+- `brain-prime` — простые числа
+- `brain-games` — приветствие
+
+## Требования
+
+- Python ≥ 3.10
+- [UV](https://docs.astral.sh/uv/#installation)
+
+## Установка
+
+```bash
+git clone https://github.com/iluzin/qa-auto-engineer-python-project-49.git
+cd qa-auto-engineer-python-project-49
+make install
+uv tool install -e .
+```
+
 [![asciicast](https://asciinema.org/a/Q9xEvTaZXIay4uK7.svg)](https://asciinema.org/a/Q9xEvTaZXIay4uK7)
 
 [![asciicast](https://asciinema.org/a/OL9ZK6z7xtYXDPOs.svg)](https://asciinema.org/a/OL9ZK6z7xtYXDPOs)
@@ -11,3 +33,7 @@
 [![asciicast](https://asciinema.org/a/Vm5iQrTNTlkHVstJ.svg)](https://asciinema.org/a/Vm5iQrTNTlkHVstJ)
 
 [![asciicast](https://asciinema.org/a/CNiUDaZjfbrf70lb.svg)](https://asciinema.org/a/CNiUDaZjfbrf70lb)
+
+```
+
+```
