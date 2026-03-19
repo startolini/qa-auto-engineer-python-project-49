@@ -7,6 +7,9 @@ brain-games:
 brain-calc:
 	uv run brain-calc
 
+brain-progression:
+	uv run brain-progression
+
 build:
 	uv build
 
