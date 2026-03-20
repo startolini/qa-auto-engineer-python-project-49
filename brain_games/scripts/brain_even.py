@@ -10,7 +10,7 @@ def main():
     name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     for _ in range(ROUNDS):
-        number = random.randint(1, 100)
+        number = random.randint(1, 100)  # NOSONAR
         correct = "yes" if number % 2 == 0 else "no"
         print(f"Question: {number}")
         answer = input("Your answer: ")

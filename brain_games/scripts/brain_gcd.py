@@ -13,11 +13,11 @@ def main():
     rounds_count = 3
 
     for _ in range(rounds_count):
-        num1 = random.randint(1, 100)
+        num1 = random.randint(1, 100)  # NOSONAR
         if num1 > 50:
-            num2 = num1 - random.randint(1, 50)
+            num2 = num1 - random.randint(1, 50)  # NOSONAR
         else:
-            num2 = num1 + random.randint(1, 50)
+            num2 = num1 + random.randint(1, 50)  # NOSONAR
 
         correct_answer = math.gcd(num1, num2)
 

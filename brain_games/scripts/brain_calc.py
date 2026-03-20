@@ -13,8 +13,8 @@ def main():
     rounds_count = 3
 
     for _ in range(rounds_count):
-        num1 = random.randint(1, 25)
-        num2 = random.randint(1, 25)
+        num1 = random.randint(1, 25)  # NOSONAR
+        num2 = random.randint(1, 25)  # NOSONAR
         operation = random.choice(operations)
 
         if operation == "+":

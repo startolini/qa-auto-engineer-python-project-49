@@ -23,7 +23,7 @@ def main():
     rounds_count = 3
 
     for _ in range(rounds_count):
-        number = random.randint(1, 100)
+        number = random.randint(1, 100)  # NOSONAR
         correct_answer = "yes" if is_prime(number) else "no"
 
         print(f"Question: {number}")
