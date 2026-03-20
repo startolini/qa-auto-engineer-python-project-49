@@ -15,7 +15,7 @@ def main():
     for _ in range(rounds_count):
         num1 = random.randint(1, 25)  # NOSONAR
         num2 = random.randint(1, 25)  # NOSONAR
-        operation = random.choice(operations)
+        operation = random.choice(operations)  # NOSONAR
 
         if operation == "+":
             correct_answer = num1 + num2
